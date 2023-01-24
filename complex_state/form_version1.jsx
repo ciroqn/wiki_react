@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="container">
       <h1>Hello {heading}</h1>
-      // once submitted, the h1 heading should say 'Bob Sleigh' (for example) is 'Bob' typed into first input, and 'Sleigh' in second input
+      // once submitted, the h1 heading should say 'Bob Sleigh' (for example) if 'Bob' typed into first input, and 'Sleigh' in second input
       <form onSubmit={handleClick}>
         <input
           value={fname}
