@@ -16,6 +16,7 @@ function App() {
     // console.log(name)
     // console.log(value)
 
+    // below, ideally used ES6 spread operator (see version4)
     // setFunction 'comes with' a prevValue paramter which can be logged. The 'prevValue' is an object with the defined keys (i.e. fName, lName, email)
     setContact(prevValue => {
       if (name === "fName") {
