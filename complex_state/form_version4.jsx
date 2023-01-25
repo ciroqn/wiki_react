@@ -20,6 +20,7 @@ function App() {
 
     
     // setFunction 'comes with' a prevValue paramter which can be logged. The 'prevValue' is an object with the defined keys (i.e. fName, lName, email)
+    // Following ES6 arrow function syntax, the function below could be done on one line, but it's almost too terse.
     setContact(prevValue => {
       return {
         ...prevValue,
